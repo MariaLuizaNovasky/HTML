@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1280px;
+    display: flex;
+    background: #c68ebe;
+    min-height: 500px;
+}
+.coluna{
+    width: 50%;
+    text-align: center;
+}
+
+.coluna.rosa{
+    background: #b05093;
+}
+.coluna.verde{
+    background: #87A6B0;
+}
+.coluna.roxo{
+    background: #977da9;
+}

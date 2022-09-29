@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Materialize</title>
+</head>
+
+<body>
+    <nav class="pink darken-2"">
+        <div class=" nav-wrapper">
+        <a href="#" class="brand-logo"><img src="img/logo.png"></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="empresa.html">Empresa</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="row">
+            <div class="col s12 m12 banner">
+                <div class="carousel carousel-slider">
+                    <a class="carousel-item" href="#one!"><img src="img/foto1.jpg"></a>
+                    <a class="carousel-item" href="#two!"><img src="img/foto2.jpg"></a>
+                    <a class="carousel-item" href="#three!"><img src="img/foto3.jpg"></a>
+                    <a class="carousel-item" href="#four!"><img src="img/foto4.jpg"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- <inicio do card> -->
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="card small pink lighten-4">
+                    <div class="card-image">
+                        <img src="img/foto2.jpg">
+                    </div>
+                    <div class="card-content black-text">
+                        <span class="card-title">Blusas e Inverno</span>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="btn pink darken-2">Visualizar</a>
+                        <a href="#" class="btn pink darken-2">Compra</a>
+                    </div>
+                </div>
+            </div>
+            <!-- <Fim do card> -->
+
+            <!-- <inicio do card> -->
+            <div class="col s12 m4">
+                <div class="card small pink lighten-4">
+                    <div class="card-image">
+                        <img src="img/foto3.jpg">
+                    </div>
+                    <div class="card-content black-text">
+                        <span class="card-title">Bolsas</span>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="btn pink darken-2">Visualizar</a>
+                        <a href="#" class="btn pink darken-2">Compra</a>
+                    </div>
+                </div>
+            </div>
+            <!-- <Fim do card> -->
+
+            <!-- <inicio do card> -->
+            <div class="col s12 m4">
+                <div class="card small pink lighten-4">
+                    <div class="card-image">
+                        <img src="img/foto1.jpg">
+                    </div>
+                    <div class="card-content black-text">
+                        <span class="card-title">Saias Colegial Asiatica</span>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="btn pink darken-2">Visualizar</a>
+                        <a href="#" class="btn pink darken-2" disabled>Compra</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <Fim do card> -->
+
+        <div class="row">
+            <div class="col s6 m6">
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DQ4Ni7KsHoI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col s6 m6">
+                <video class="responsive-video" controls>
+                    <source src="videos/nature.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+<div class="row">
+    <form class="col s12">
+        <div class="input-field col s6">
+            <label for="text" data-error="wrong" data-success="right">Nome:</label>
+            <input id="nome" type="text" class="validate">
+        </div>
+
+        <div class="input-field col s6">
+            <label for="text" data-error="wrong" data-success="right">CPF:</label>
+            <input id="numero" type="text" class="validate">
+        </div>
+
+        <div class="input-field col s12">
+            <label for="email" data-error="wrong" data-success="right">E-mail:</label>
+            <input id="email" type="email" class="validate">
+        </div>
+
+        <div class="input-field col s8">
+            <label for="text" data-error="wrong" data-success="right">Endereço:</label>
+            <input id="endereco" type="text" class="validate">
+        </div>
+
+        <div class="input-field col s4">
+            <label for="text" data-error="wrong" data-success="right">N°:</label>
+            <input id="numero" type="text" class="validate">
+        </div>
+
+        <div class="input-field col s6">
+            <label for="text" data-error="wrong" data-success="right">Bairro:</label>
+            <input id="bairro" type="text" class="validate">
+        </div>
+
+        <div class="input-field col s6">
+            <label for="text pink darken-2" data-error="wrong" data-success="right">Cidade:</label>
+            <input id="numero" type="text" class="validate">
+        </div>
+
+        <button class="btn pink darken-2 " type="submit" name="action">Enviar Dados</button>
+
+</div>
+</main>
+
+    <!-- <Footer> -->
+    <footer class="page-footer pink darken-2">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12"> </div>
+                <div class="col l4 offset-l2 s12"> </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    &copy; 2014 Todos os direitos reservados
+                    <a class="white-text text-lighten-4 right" href="#!">Mais links</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/materialize.min.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
